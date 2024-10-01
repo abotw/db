@@ -1,0 +1,1 @@
+select * from 选修 where 课程号 in (select 课程号 from 选修 where 学号='19010101')

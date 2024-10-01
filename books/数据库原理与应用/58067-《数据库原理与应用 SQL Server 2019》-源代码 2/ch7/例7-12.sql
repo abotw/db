@@ -1,0 +1,1 @@
+select 课程号,count(*) as 选修人数 from 选修 group by 课程号

@@ -1,0 +1,1 @@
+select 学号 from 选修 where 成绩>=90 group by 学号 having count(*)>=3

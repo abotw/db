@@ -1,0 +1,1 @@
+dbcc shrinkdatabase(test3,10)

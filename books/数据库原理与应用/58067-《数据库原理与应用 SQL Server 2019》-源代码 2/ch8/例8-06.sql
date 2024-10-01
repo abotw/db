@@ -1,0 +1,1 @@
+update inform set 性别='女' where 学号='19020104'

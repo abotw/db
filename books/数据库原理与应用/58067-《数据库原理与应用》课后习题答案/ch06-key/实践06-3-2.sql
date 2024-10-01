@@ -1,0 +1,1 @@
+select distinct Àà±ğ from Í¼Êé

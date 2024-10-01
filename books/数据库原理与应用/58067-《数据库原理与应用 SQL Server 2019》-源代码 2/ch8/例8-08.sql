@@ -1,0 +1,1 @@
+create index IX_选修_成绩 on 选修(成绩 desc)

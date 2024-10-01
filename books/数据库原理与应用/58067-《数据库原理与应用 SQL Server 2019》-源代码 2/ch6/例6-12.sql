@@ -1,0 +1,1 @@
+select * from 课程 where 课程名称 like '课程设计\_数据库' escape '\'

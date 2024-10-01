@@ -1,0 +1,1 @@
+select 学号,姓名,性别,year(getdate())-year(出生日期) as '年龄' from 学生

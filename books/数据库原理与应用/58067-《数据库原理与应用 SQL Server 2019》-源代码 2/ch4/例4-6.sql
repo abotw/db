@@ -1,0 +1,1 @@
+alter database test2 modify file (name=test2,maxsize=100,filegrowth=2)

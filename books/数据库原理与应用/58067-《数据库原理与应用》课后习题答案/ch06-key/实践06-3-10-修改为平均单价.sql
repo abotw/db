@@ -1,0 +1,1 @@
+Select sum(定价) as  总价 from 图书

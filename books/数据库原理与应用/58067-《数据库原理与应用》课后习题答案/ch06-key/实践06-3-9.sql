@@ -1,0 +1,1 @@
+Select count(*) as 藏书数量 from 图书 

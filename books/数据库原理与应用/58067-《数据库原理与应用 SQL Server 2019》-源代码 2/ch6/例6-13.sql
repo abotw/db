@@ -1,0 +1,1 @@
+select * from Ñ¡ÐÞ where ³É¼¨ is null

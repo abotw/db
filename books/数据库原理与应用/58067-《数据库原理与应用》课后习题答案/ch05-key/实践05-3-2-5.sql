@@ -1,0 +1,1 @@
+alter table ½èÔÄ add ´®ºÅ varchar(10)  constraint pk_½èÔÄ_´®ºÅ primary key

@@ -1,0 +1,1 @@
+Select  *,'日' from 读者类型

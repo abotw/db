@@ -1,0 +1,1 @@
+select top 20 percent * from Ñ§Éú

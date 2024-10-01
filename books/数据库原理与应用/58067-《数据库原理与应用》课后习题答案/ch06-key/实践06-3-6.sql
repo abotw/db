@@ -1,0 +1,1 @@
+Select * from 图书 where 出版社='清华大学出版社' order by 定价 

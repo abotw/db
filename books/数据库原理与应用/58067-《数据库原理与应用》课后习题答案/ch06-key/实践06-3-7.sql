@@ -1,0 +1,1 @@
+Select top 3 图书编号,定价 from 图书 order by 定价 desc

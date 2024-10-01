@@ -1,0 +1,3 @@
+select ¿Î³ÌºÅ from ÊÚ¿Î where ¹¤ºÅ='130101' 
+intersect
+select ¿Î³ÌºÅ from ÊÚ¿Î where ¹¤ºÅ='wp0101'

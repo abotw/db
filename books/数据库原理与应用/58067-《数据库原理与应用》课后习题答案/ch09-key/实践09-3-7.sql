@@ -1,0 +1,8 @@
+use library
+go 
+create trigger del_∂¡’ﬂ
+on ∂¡’ﬂ
+after delete
+as
+delete from ΩË‘ƒ where ∂¡’ﬂ±‡∫≈ in (
+select ∂¡’ﬂ±‡∫≈ from deleted)

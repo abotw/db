@@ -1,0 +1,1 @@
+Select * from 图书 where 书名 like '%程序设计%'

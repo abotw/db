@@ -1,0 +1,1 @@
+dbcc indexdefrag(JXGL,¿Î³Ì,pk_¿Î³Ì_¿Î³ÌºÅ)

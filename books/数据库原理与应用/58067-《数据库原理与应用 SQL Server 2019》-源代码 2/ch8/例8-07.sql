@@ -1,0 +1,1 @@
+delete inform where Ñ§ºÅ='19020104'

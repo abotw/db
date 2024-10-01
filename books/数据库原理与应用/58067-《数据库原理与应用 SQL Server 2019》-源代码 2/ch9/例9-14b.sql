@@ -1,0 +1,1 @@
+alter table Ñ§Éú add »é·ñ char(2)

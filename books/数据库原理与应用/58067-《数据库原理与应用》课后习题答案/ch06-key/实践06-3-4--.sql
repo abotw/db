@@ -1,0 +1,1 @@
+Select 书名,作者 from 图书 where 出版社='清华大学出版社'

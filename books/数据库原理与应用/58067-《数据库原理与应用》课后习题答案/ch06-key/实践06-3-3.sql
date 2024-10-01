@@ -1,0 +1,1 @@
+select * from ฝ่ิฤ where ถมี฿ฑเบล='1001'

@@ -1,0 +1,1 @@
+select * from 学生 where 性别='男'

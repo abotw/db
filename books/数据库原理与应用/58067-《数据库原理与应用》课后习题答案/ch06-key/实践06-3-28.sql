@@ -1,0 +1,1 @@
+select 单位,count(单位) 读者总数 from 读者 group by 单位

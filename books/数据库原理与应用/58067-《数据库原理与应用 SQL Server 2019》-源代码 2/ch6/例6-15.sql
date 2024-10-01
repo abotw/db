@@ -1,0 +1,1 @@
+select ¿Î³ÌºÅ,count(*) from Ñ¡ÐÞ group by ¿Î³ÌºÅ
