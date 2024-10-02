@@ -5,6 +5,13 @@ parent: Problem sets
 ---
 
 # Problem Set 1
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Q1: 
 
