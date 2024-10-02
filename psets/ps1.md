@@ -1,7 +1,7 @@
 ---
 title: Problem Set 1
 layout: home
-parent: Problem sets
+parent: Problem Sets
 ---
 
 # Problem Set 1
