@@ -1,7 +1,7 @@
 ---
-title: Problem sets
+title: Problem Sets
 layout: home
 ---
-# Problem sets
+# Problem Sets
 
-Last Updated: Wed Oct  2 19:08:11 CST 2024
+Last Updated: Wed Oct  2 19:18:36 CST 2024

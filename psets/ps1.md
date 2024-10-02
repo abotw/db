@@ -35,7 +35,7 @@ parent: Problem sets
 
 小李绘制的局部E-R图：（30分）
 
-![[Pasted image 20241002191652.png]]
+![ps1-1.png](./attachments/ps1-1.png)
 
 现委托你继续完善需求分析工作，
 1. 给出实体命名和属性命名冲突的解决思路，
@@ -43,4 +43,4 @@ parent: Problem sets
 
 ---
 
-Last Updated: Wed Oct  2 19:17:04 CST 2024
+Last Updated: Wed Oct  2 19:19:55 CST 2024
