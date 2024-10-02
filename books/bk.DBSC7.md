@@ -25,6 +25,8 @@ w3: https://www.db-book.com/
 	</a>
 </div>
 
+- [Database System Concepts](https://www.db-book.com/), A. Silberschatz, H. Korth and S. Sudarshan, McGraw-Hill, 7th Edition, 2019
+
 ## TOC
 
 ---
