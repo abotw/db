@@ -1,10 +1,10 @@
 ---
-title: "Lab 9: 存储过程与触发器 (4h, 报告)"
+title: "Lab 09: 存储过程与触发器 (4h, 报告)"
 layout: home
 parent: Labs
 ---
 
-# Lab 9: 存储过程与触发器 (4h, 报告)
+# Lab 09: 存储过程与触发器 (4h, 报告)
 
 ---
 

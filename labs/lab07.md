@@ -1,10 +1,10 @@
 ---
-title: "Lab 7: 程序设计 (6h, 报告)"
+title: "Lab 07: 程序设计 (6h, 报告)"
 layout: home
 parent: Labs
 ---
 
-# Lab 7: 程序设计 (6h, 报告)
+# Lab 07: 程序设计 (6h, 报告)
 
 ---
 

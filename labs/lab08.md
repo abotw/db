@@ -1,10 +1,10 @@
 ---
-title: "Lab 8: 视图、索引和游标"
+title: "Lab 08: 视图、索引和游标"
 layout: home
 parent: Labs
 ---
 
-# Lab 8: 视图、索引和游标
+# Lab 08: 视图、索引和游标
 
 ---
 

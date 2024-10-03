@@ -1,10 +1,10 @@
 ---
-title: "Lab 2: Relational Algebra"
+title: "Lab 02: Relational Algebra"
 layout: mathjax
 parent: Labs
 ---
 
-# Lab 2: Relational Algebra
+# Lab 02: Relational Algebra
 
 ---
 

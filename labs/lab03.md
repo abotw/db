@@ -1,10 +1,10 @@
 ---
-title: "Lab 3: 关系数据库规范化理论"
+title: "Lab 03: 关系数据库规范化理论"
 layout: home
 parent: Labs
 ---
 
-# Lab 3: 关系数据库规范化理论
+# Lab 03: 关系数据库规范化理论
 
 ---
 

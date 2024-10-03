@@ -1,10 +1,10 @@
 ---
-title: "Lab 1: E-R Diagram"
+title: "Lab 01: E-R Diagram"
 layout: home
 parent: Labs
 ---
 
-# Lab 1: E-R Diagram
+# Lab 01: E-R Diagram
 
 ---
 

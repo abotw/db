@@ -1,10 +1,10 @@
 ---
-title: "Lab 6: 数据操作和SQL语句 (4h)"
+title: "Lab 06: 数据操作和SQL语句 (4h)"
 layout: home
 parent: Labs
 ---
 
-# Lab 6: 数据操作和SQL语句 (4h)
+# Lab 06: 数据操作和SQL语句 (4h)
 
 ---
 

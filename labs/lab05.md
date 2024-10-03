@@ -1,10 +1,10 @@
 ---
-title: "Lab 5: 数据表的创建与管理 (2h)"
+title: "Lab 05: 数据表的创建与管理 (2h)"
 layout: home
 parent: Labs
 ---
 
-# Lab 5: 数据表的创建与管理 (2h)
+# Lab 05: 数据表的创建与管理 (2h)
 
 ---
 
