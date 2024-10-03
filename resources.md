@@ -10,6 +10,7 @@ layout: home
 - [CS186: Introduction to Database Systems](https://cs186berkeley.net/) (Fall 2024, Berkeley, [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/))
 	- <https://www.youtube.com/@CS186Berkeley/>
 - CS50’s Introduction to Databases with SQL ([2024](https://cs50.harvard.edu/sql/2024/), Harvard, [Carter Zenke](https://carterzenke.me/) and [David J. Malan](https://cs.harvard.edu/malan/))
+- [CS 4750: Database](https://www.cs.virginia.edu/~up3f/cs4750/syllabus.html) (Spring 2024, [University of Virginia](https://engineering.virginia.edu/department/computer-science), [Upsorn Praphamontripong](mailto:upsorn@virginia.edu?Subject=CS4750-S23))
 - AI3613/ICE3404P: Database Systems Concepts ([Spring 2024](https://www.cs.sjtu.edu.cn/~qyin/teaching/db2024/), SJTU, [Qiang Yin](https://cs.sjtu.edu.cn/~qyin))
 	- 过往学期: [Spring 2023](https://www.cs.sjtu.edu.cn/~qyin/teaching/db2023/index.html)
 - [CS 022: The Principle of Database System](https://www.cs.sjtu.edu.cn/~li-fang/DB.htm) (SJTU, [Dr. Fang Li](https://www.cs.sjtu.edu.cn/~li-fang/))
