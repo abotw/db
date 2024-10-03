@@ -8,11 +8,7 @@ layout: home
 
 **\[[实验教学大纲](./lab-syllabus.pdf)\] \[[实验指导书](./lab-book.pdf)\] \[[实验评分表](./lab-grade_table.pdf)\]**
 
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+---
 
 <dl>
   <dt>模块代码</dt>
@@ -24,6 +20,14 @@ layout: home
   <dt>学时</dt>
   <dd>24</dd>
 </dl>
+
+---
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## 1. 本实验课的性质和教学目的 
 
