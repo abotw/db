@@ -6,6 +6,14 @@ layout: home
 # Labs: 《数据库原理与应用》实验教学大纲
 {: .no_toc }
 
+**\[[实验教学大纲](./lab-syllabus.pdf)\] \[[实验指导书](./lab-book.pdf)\] \[[实验评分表](./lab-grade_table.pdf)\]**
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 <dl>
   <dt>模块代码</dt>
   <dd>3021322007</dd>
@@ -16,14 +24,6 @@ layout: home
   <dt>学时</dt>
   <dd>24</dd>
 </dl>
-
-Last Updated: Thu Oct  3 10:03:21 CST 2024
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## 1. 本实验课的性质和教学目的 
 
@@ -94,3 +94,7 @@ Last Updated: Thu Oct  3 10:03:21 CST 2024
 		2. 正文宋体、五号字、 单倍行距；
 		3. 图表要注明标号，宋体、小五号。
 	4. 打印格式：正反打印。
+
+---
+
+Last Updated: Thu Oct  3 11:01:18 CST 2024
