@@ -1,5 +1,5 @@
 ---
-title: SQL基础教程
+title: SQL 基础教程 (第2版)
 layout: home
 parent: Books
 aliases:
@@ -11,7 +11,8 @@ tags:
   - sql
   - database
 ---
-Thu Jul 25 17:37:51 CST 2024
+
+# SQL 基础教程 (第2版)
 
 <div>
 	<a href="https://www.shoeisha.co.jp/book/detail/9784798144450">
@@ -218,3 +219,8 @@ Thu Jul 25 17:37:51 CST 2024
 	- 小结　　307  
 	- 练习题　　307  
 - 附录　练习题答案　308
+
+---
+
+Last Updated: Thu Oct  3 13:14:45 CST 2024
+

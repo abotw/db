@@ -1,5 +1,5 @@
 ---
-title: SQL必知必会
+title: SQL in 10 Minutes a Day, Sams Teach Yourself (5ed)
 layout: home
 parent: Books
 aliases:
@@ -16,7 +16,8 @@ tags:
   - sql
   - database
 ---
-Thu Jul 25 17:36:12 CST 2024
+
+# SQL in 10 Minutes a Day, Sams Teach Yourself (5ed)
 
 <div>
 	<a href="https://forta.com/books/0135182794/">
@@ -56,3 +57,7 @@ Thu Jul 25 17:36:12 CST 2024
 - Appendix B: SQL Statement Syntax
 - Appendix C: Using SQL Datatypes
 - Appendix D: SQL Reserved Words
+
+---
+
+Last Updated: Thu Oct  3 13:16:02 CST 2024
