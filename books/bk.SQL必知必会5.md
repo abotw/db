@@ -20,10 +20,10 @@ Thu Jul 25 17:36:12 CST 2024
 
 <div>
 	<a href="https://forta.com/books/0135182794/">
-		<img src="https://i0.wp.com/forta.com/wp-content/uploads/2022/09/0672336073_large.webp?w=455&ssl=1" height="200" border="1">
+		<img src="https://i0.wp.com/forta.com/wp-content/uploads/2022/09/0672336073_large.webp?w=455&ssl=1" style="height: 200px;">
 	</a> 
 	<a href="https://www.ituring.com.cn/book/2649">
-		<img src="https://file.ituring.com.cn/LargeCover/20064bf94ec7b1e61cfa" height="200" border="1">
+		<img src="https://file.ituring.com.cn/LargeCover/20064bf94ec7b1e61cfa" style="height: 200px;">
 	</a>
 </div>
 

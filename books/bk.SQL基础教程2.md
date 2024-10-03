@@ -15,10 +15,10 @@ Thu Jul 25 17:37:51 CST 2024
 
 <div>
 	<a href="https://www.shoeisha.co.jp/book/detail/9784798144450">
-		<img src="https://www.shoeisha.co.jp/static/splus/269/book/image/9784798144450.jpg" height="200" border="1">
+		<img src="https://www.shoeisha.co.jp/static/splus/269/book/image/9784798144450.jpg" style="height: 200px;">
 	</a>
 	<a href="https://www.ituring.com.cn/book/1880">
-		<img src="https://file.ituring.com.cn/LargeCover/1712477631b07b9f5895" height="200" border="1">
+		<img src="https://file.ituring.com.cn/LargeCover/1712477631b07b9f5895" style="height: 200px;">
 	</a>
 </div>
 
