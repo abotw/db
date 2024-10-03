@@ -3,7 +3,7 @@ title: Labs
 layout: home
 ---
 
-# Labs: 《数据库原理与应用》实验教学大纲
+# Labs
 {: .no_toc }
 
 **\[[实验教学大纲](./lab-syllabus.pdf)\] \[[实验指导书](./lab-book.pdf)\] \[[实验评分表](./lab-grade_table.pdf)\]**
