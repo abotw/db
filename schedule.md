@@ -6,7 +6,7 @@ layout: home
 
 ---
 
-<pre>    Mo Tu We Th Fr Sa Su Wk
+<pre>    Mo Tu We Th Fr Sa Su  Wk
 Sep  2  3  4  5  6  7  8    
      9 10 11 12 13 14 15    
     16 17 18 <span style="color: red; background: yellow;"><b>19</b></span> 20 21 22  <b> 1</b>    lec 01; first class
@@ -32,4 +32,5 @@ Dec                    1  <b>11</b>
 
 ---
 
-Last Updated: Thu Oct  3 10:28:11 CST 2024
+Last Updated: Thu Oct  3 10:30:30 CST 2024
+
