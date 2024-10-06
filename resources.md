@@ -39,12 +39,15 @@ layout: home
 
 ## 4. Tools
 
+- [SmartDraw](https://app.smartdraw.com/)
+	- ER Diagram
 - [showthedocs](http://showthedocs.com/)
 - [SQL in small steps](https://sql-steps.wizardzines.com/)
 - [SQL Fiddle](https://sqlfiddle.com/)
 
 ---
 
-Last Updated: Sun Oct  6 13:14:56 CST 2024
+Last Updated: Sun Oct  6 13:31:31 CST 2024
+
 
 
