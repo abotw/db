@@ -2,9 +2,13 @@
 title: Resources
 layout: home
 ---
-# Resources, 课程资源
+# Resources
 
-## Courses, 相关课程
+## 0. Cheatsheets
+
+- <https://joins-238123.netlify.app/cheat-sheet/>
+
+## 1. Courses
 
 | Univ                                                                                   | Num                                                   | Name                                                                           | Semester                                                                                                                                      | Instructor                                                                                  |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -17,9 +21,30 @@ layout: home
 | SJTU                                                                                   | [CS 316](https://www.cs.sjtu.edu.cn/~li-fang/DB2.htm) | /                                                                              | /                                                                                                                                             | [Dr. Fang Li](https://www.cs.sjtu.edu.cn/~li-fang/)                                         |
 | HFU                                                                                    | /                                                     | [数据库原理与应用](http://zlgc.hfuu.edu.cn/mooc/2015/ycl/index.htm)                    | 2015                                                                                                                                          | 叶潮流                                                                                         |
 
-- [CS186 Official Channel](https://www.youtube.com/@CS186Berkeley/)
+- CS186
+	- [CS186 Official Channel](https://www.youtube.com/@CS186Berkeley/)
+	- [CS186 Notes](https://cs186berkeley.net/notes/)
+
+## 2. Others
+
+- <https://teachyourselfcs.com/#databases>
+- [SQL Tutorial](https://www.w3schools.com/sql/)
+- [SQLZOO](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [Data Science Tools study guides for MIT's 15.003](https://github.com/shervinea/mit-15-003-data-science-tools/tree/master)
+	- <https://www.mit.edu/~amidi/teaching/data-science-tools/study-guide/data-retrieval-with-sql/>
+
+## 3. Papers
+
+- [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf)
+
+## 4. Tools
+
+- [showthedocs](http://showthedocs.com/)
+- [SQL in small steps](https://sql-steps.wizardzines.com/)
+- [SQL Fiddle](https://sqlfiddle.com/)
 
 ---
 
-Last Updated: Thu Oct  3 12:06:50 CST 2024
+Last Updated: Sun Oct  6 13:14:56 CST 2024
+
 
