@@ -4,7 +4,10 @@ layout: home
 parent: Labs
 ---
 
-# Lab 04: 数据库的创建与管理 (2h)
+# Lab 4: 数据库的创建与管理 (2h)
+
+- SSMS: SQL Server Mangament Studio
+- T-SQL
 
 ---
 
