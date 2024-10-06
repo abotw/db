@@ -32,6 +32,7 @@ layout: home
 - [SQLZOO](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [Data Science Tools study guides for MIT's 15.003](https://github.com/shervinea/mit-15-003-data-science-tools/tree/master)
 	- <https://www.mit.edu/~amidi/teaching/data-science-tools/study-guide/data-retrieval-with-sql/>
+- [Database.Guide](https://database.guide/)
 
 ## 3. Papers
 
@@ -47,7 +48,8 @@ layout: home
 
 ---
 
-Last Updated: Sun Oct  6 13:31:31 CST 2024
+Last Updated: Sun Oct  6 19:17:45 CST 2024
+
 
 
 
