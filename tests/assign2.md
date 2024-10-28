@@ -66,7 +66,7 @@ CREATE TABLE [借阅记录] (
     [借书日期] DATE,
     [还书日期] DATE,
     FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
-    FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
+    FOREIGN KEY ([图书编号]) REFERENCES [图书]([图书编号])
 );
 
 -- Step 3: 插入数据
@@ -194,7 +194,7 @@ CREATE TABLE [借阅记录] (
     [借书日期] DATE,
     [还书日期] DATE,
     FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
-    FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
+    FOREIGN KEY ([图书编号]) REFERENCES [图书]([图书编号])
 );
 ```
 
@@ -297,7 +297,7 @@ CREATE TABLE [借阅记录] (
     [借书日期] DATE,
     [还书日期] DATE,
     FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
-    FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
+    FOREIGN KEY ([图书编号]) REFERENCES [图书]([图书编号])
 );
 ```
 
