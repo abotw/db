@@ -79,9 +79,17 @@ WHERE 学生.学号 = 选修.学号 AND 性别 = '男'
 
 ## Comments, 注释
 
+- [-- (Comment) (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/comment-transact-sql?view=sql-server-ver16)
+- [Slash Star (Block Comment) (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/slash-star-comment-transact-sql?view=sql-server-ver16)
+
 ```sql
--- 行注释
-/* 块注释 */
+-- text_of_comment
+```
+
+```sql
+/*  
+text_of_comment  
+*/
 ```
 
 ## [Control of Flow](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/control-of-flow?view=sql-server-ver16), 控制流
@@ -360,6 +368,91 @@ GO
 
 DECLARE @j INT
 EXECUTE
+```
+
+```sql
+-- 7-17
+USE jxgl
+GO
+
+CREATE FUNCTION dbo.fage(@priordate DATETIME, @curdate DATETIME)
+RETURNS INT
+AS
+BEGIN
+RETURN YEAR(@curdate) - YEAR(@priordate)
+END
+GO
+
+SELECT 学号, 姓名, 性别, dbo.fage(出生日期, GETDATE())
+AS 年龄 FROM 学生
+SELECT 工号, 姓名, 性别, dbo.fage(工作日期, GETDATE())
+AS 工龄 FROM 教师
+```
+
+```sql
+-- 7-18
+USE jxgl
+GO
+
+CREATE FUNCTION dbo.finfo (@xh char(8) = '19010101')
+RETURNS TABLE
+AS
+RETURN
+(
+	SELECT 学生.学号, 姓名, 性别, 课程号, 成绩 FROM 学生, 选修
+	WHERE 学生.学号 = 选修.学号 AND 学生.学号 = @xh
+);
+GO
+
+SELECT *
+FROM dbo.finfo(default)
+```
+
+https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/create-user-defined-functions-database-engine?view=sql-server-ver16#TVF
+
+```sql
+IF OBJECT_ID (N'Sales.ufn_SalesByStore', N'IF') IS NOT NULL
+    DROP FUNCTION Sales.ufn_SalesByStore;
+GO
+CREATE FUNCTION Sales.ufn_SalesByStore (@storeid int)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT P.ProductID, P.Name, SUM(SD.LineTotal) AS 'Total'
+    FROM Production.Product AS P
+    JOIN Sales.SalesOrderDetail AS SD ON SD.ProductID = P.ProductID
+    JOIN Sales.SalesOrderHeader AS SH ON SH.SalesOrderID = SD.SalesOrderID
+    JOIN Sales.Customer AS C ON SH.CustomerID = C.CustomerID
+    WHERE C.StoreID = @storeid
+    GROUP BY P.ProductID, P.Name
+);
+```
+
+```sql
+-- 7-19
+USE jxgl;
+GO
+
+CREATE FUCNTION score_info (@courseid char(2))
+RETURNS @total_score TABLE (
+	课程号 char(2),
+	学号 char(8),
+	姓名 char(6),
+	性别 char(2),
+	成绩 TINYINT
+) AS
+BEGIN
+	INSERT @total_score
+	SELECT 课程号, 选修.学号, 姓名, 性别, 成绩
+	FROM 选修, 学生
+	WHERE 选修.学号 = 学生.学号 AND 课程号 = @courseid
+	RETURN
+END
+GO
+
+SELECT *
+FROM score_info('02')
 ```
 
 ---
