@@ -65,7 +65,7 @@ CREATE TABLE [借阅记录] (
     [图书编号] VARCHAR(10),
     [借书日期] DATE,
     [还书日期] DATE,
-    FOREIGN KEY ([读者编号]) REFERENCES [读者信息]([读者编号]),
+    FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
     FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
 );
 
@@ -193,7 +193,7 @@ CREATE TABLE [借阅记录] (
     [图书编号] VARCHAR(10),
     [借书日期] DATE,
     [还书日期] DATE,
-    FOREIGN KEY ([读者编号]) REFERENCES [读者信息]([读者编号]),
+    FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
     FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
 );
 ```
@@ -296,7 +296,7 @@ CREATE TABLE [借阅记录] (
     [图书编号] VARCHAR(10),
     [借书日期] DATE,
     [还书日期] DATE,
-    FOREIGN KEY ([读者编号]) REFERENCES [读者信息]([读者编号]),
+    FOREIGN KEY ([读者编号]) REFERENCES [读者]([读者编号]),
     FOREIGN KEY ([图书编号]) REFERENCES [图书信息]([图书编号])
 );
 ```
