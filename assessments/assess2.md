@@ -5,9 +5,17 @@ parent: Assessments
 last updated: 2024-11-18T22:52:00
 ---
 
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ## p0: create a database named `library`
 
-- database name：`library`
+- [Create a database](https://learn.microsoft.com/en-us/sql/relational-databases/databases/create-a-database?view=sql-server-ver16)
 
 ```sql
 create database library
@@ -27,10 +35,6 @@ log on
 );
 go
 ```
-
----
-
-- [Create a database](https://learn.microsoft.com/en-us/sql/relational-databases/databases/create-a-database?view=sql-server-ver16)
 
 ## p1: create tables part 1
 
@@ -224,6 +228,7 @@ go
 
 alter table 读者
 add constraint ck_读者_性别 check (性别 = '男' or 性别 = '女');
+go
 ```
 
 #### 5. 使用T-SQL语句为“借阅”表增加“串号”列，数据类型为varchar(10)，并为主键。
@@ -233,7 +238,7 @@ use library;
 go
 
 alter table 借阅
-add column 串号 varchar(10)
+add 串号 varchar(10)
 constraint pk_借阅_串号 primary key;
 go
 ```
@@ -265,6 +270,97 @@ go
 
 ```sql
 use library;
+go
+
+alter table 借阅
+add constraint uk_借阅
+unique (图书编号, 读者编号);
+go
+```
+
+## appendix
+
+```sql
+create database library
+on
+(name = library_dat,
+ filename = 'E:\db\LibraryData\librarydt.mdf',
+ size = 10,
+ maxsize = 50,
+ filegrowth = 5
+)
+log on
+(name = library_log,
+ filename = 'E:\db\LibraryData\librarylog.mdf',
+ size = 5mb,
+ maxsize = 25mb,
+ filegrowth = 5mb
+);
+go
+
+-- 1. 创建图书表
+create table 图书 (
+	图书编号 char(6) not null primary key,
+	书名 varchar(20) not null,
+	类别 char(12),
+	作者 varchar(20),
+	出版社 varchar(20),
+	出版日期 datetime,
+	定价 money
+);
+go
+
+-- 2. 创建读者表
+create table 读者 (
+	读者编号 char(4) not null,
+	姓名 char(6) not null,
+	性别 char(2),
+	单位 varchar(20),
+	电话 varchar(13),
+	读者类型 int,
+	已借数量 int
+);
+go
+
+-- 3. 创建读者类型表
+create table 读者类型 (
+	类型编号 int not null,
+	类型名称 char(8) not null,
+	限借数量 int not null,
+	借阅期限 int
+);
+go
+
+-- 4. 创建借阅表
+create table 借阅 (
+	读者编号 char(4) not null,
+	图书编号 char(6),
+	借书日期 datetime not null,
+	还书日期 datetime,
+	foreign key (图书编号) references 图书(图书编号)
+);
+go
+
+alter table 读者
+add constraint pk_读者_读者编号 primary key (读者编号);
+go
+
+alter table 读者
+add constraint ck_读者_性别 check (性别 = '男' or 性别 = '女');
+go
+
+alter table 借阅
+add 串号 varchar(10)
+constraint pk_借阅_串号 primary key;
+go
+
+alter table 借阅
+add constraint df_借阅_借书日期
+default getdate() for 借书日期;
+go
+
+alter table 借阅
+add constraint fk_借阅_读者编号 foreign key (读者编号) references 读者(读者编号);
 go
 
 alter table 借阅
