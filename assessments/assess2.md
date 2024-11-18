@@ -346,6 +346,9 @@ log on
 );
 go
 
+use library;
+go
+
 -- 1. 创建图书表
 create table 图书 (
 	图书编号 char(6) not null primary key,
