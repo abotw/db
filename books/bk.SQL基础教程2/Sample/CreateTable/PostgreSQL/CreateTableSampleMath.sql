@@ -1,10 +1,11 @@
--- DDL£∫¥¥Ω®±Ì
+-- DDL: ?$B7zI=(B
 CREATE TABLE SampleMath
 (m  NUMERIC (10,3),
  n  INTEGER,
  p  INTEGER);
 
--- DML£∫≤Â»Î ˝æ›
+-- DML: $BYgF~?t?x(B
+BEGIN TRANSACTION;
 
 INSERT INTO SampleMath(m, n, p) VALUES (500,  0,    NULL);
 INSERT INTO SampleMath(m, n, p) VALUES (-180, 0,    NULL);
@@ -21,5 +22,5 @@ INSERT INTO SampleMath(m, n, p) VALUES (8.76, NULL, NULL);
 COMMIT;
 
 
--- »∑»œ±Ì÷–µƒƒ⁄»›
+-- ????$B!^(B?????????
 SELECT * FROM SampleMath;
