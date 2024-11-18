@@ -41,6 +41,32 @@ go
 > 在 library 数据库中，使用 T-SQL 语句创建“图书”表和“读者”两表。
 > 两表结构分别定义如表5-16和表5-17所示，利用T-SQL创建两表。（备注列括号内的内容暂不处理）
 
+```sql
+use library;
+go
+-- 1. 创建图书表
+create table 图书 (
+	图书编号 char(6) not null primary key,
+	书名 varchar(20) not null,
+	类别 char(12),
+	作者 varchar(20),
+	出版社 varchar(20),
+	出版日期 datetime,
+	定价 money
+);
+-- 2. 创建读者表
+create table 读者 (
+	读者编号 char(4) not null,
+	姓名 char(6) not null,
+	性别 char(2),
+	单位 varchar(20),
+	电话 varchar(13),
+	读者类型 int,
+	已借数量 int
+);
+go
+```
+
 ### 1. "图书"表结构
 
 表5-16
@@ -90,6 +116,7 @@ go
 
 ### 2. "读者"表结构
 
+
 表5-17
 
 | 列名   | 数据类型        | 备注                      |
@@ -135,6 +162,27 @@ go
 
 > 在 librar y数据库中增加“读者类型”表和“借阅”两表。
 > 两表结构分别定义如表5-18和表5-19所示，利用 T-SQL 语句完成以下功能。（备注列括号内的内容暂不处理）
+
+```sql
+use library;
+go
+-- 3. 创建读者类型表
+create table 读者类型 (
+	类型编号 int not null,
+	类型名称 char(8) not null,
+	限借数量 int not null,
+	借阅期限 int
+);
+-- 4. 创建借阅表
+create table 借阅 (
+	读者编号 char(4) not null,
+	图书编号 char(6),
+	借书日期 datetime not null,
+	还书日期 datetime,
+	foreign key (图书编号) references 图书(图书编号)
+);
+go
+```
 
 ### 3. "读者类型"表结构
 
